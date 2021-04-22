@@ -181,6 +181,9 @@ The table should consist of 3 rows. The station ID, the name of the station and 
 Write a script that queries the `bysykkel` database and returns a table showing user ID,
 username, and how many subscriptions they purchased in the years 2018, 2019, 2020 and 2021. 
 
+*Tip: you can use the SQL `YEAR`function to get the year of a timestamp*
+*Tip: ypu can use the CASE function to count occurences in groupings. `CASE VALUE WHEN X then 1 else 0 end)`*
+
 *Example:*
 
 | user_id | Name          | 2018 | 2019 | 2020 | 2021 |
