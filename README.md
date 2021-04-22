@@ -192,7 +192,7 @@ username, and how many subscriptions they purchased in the years 2018, 2019, 202
 
 ## Task 4: HTML Database Interface (22%)
 
-Create a HTML selector where you can choose one of the 5 stations and the click Submit.
+Create a HTML selector where you can choose one of the 5 stations. Next to the selector you should have a Submit button, that submits the selection.
 
 Then a PHP script should return a table where the first column is the station name, the second column the availability. 
 
