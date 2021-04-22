@@ -1,0 +1,16 @@
+bike_id,name,status,station_id
+1,"Morten","Missing",4
+2,"Sara","Active",2
+3,"Ida","Active",1
+4,"Hege","Active",3
+5,"Henrik","Parked",5
+6,"Trine","Parked",2
+7,"Frank","Parked",4
+8,"Thea","Parked",1
+9,"Roar","Parked",1
+10,"Preben","Missing",4
+11,"Marie","Parked",3
+12,"Annette","Parked",5
+13,"Elin","Active",2
+14,"Andreas","Missing",2
+15,"Runar","Active",5

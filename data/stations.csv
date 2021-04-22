@@ -1,0 +1,6 @@
+station_id, name, latitude, longitude, max_spots, available_spots
+1, "Høyteknologisenteret", 60.382216, 5.332288, 66, 34
+2, "Nygårdsporten", 60.383964, 5.333448, 27, 8
+3, "Festplassen", 60.391270, 5.325756, 24, 23
+4, "Småstrandgaten", 60.393001, 5.326816, 24, 16
+5, "Torgallmenningen", 60.392954, 5.323628, 22, 4
