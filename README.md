@@ -34,8 +34,8 @@ You should now have a database called `bysykkel`, containing the tables
 `users`, `subscriptions`, `bikes`, `stations` and `trips`.
 
 ## Development Environment
-This task is web oriented and you are supposed to connect your front-end (HTML and PHP) to the backend (SQL on XAMPP).
-To do this you must place the given `CE3.php` file inside XAMPP `htdocs` folder. Its location differs between operating systems.
+This task is web oriented and you are supposed to connect your front-end (HTML and PHP) to the backend (SQL on XAMPP). The "A" in XAMPP means Apache, Apache is a http server that looks for front end files like php files in the folder called "htdocs" (default front end folder).
+You should place the given `CE3.php` file inside XAMPP `htdocs` folder. Its location differs between operating systems.
 
 The `CE3.php` file can be found at https://github.com/eliasdjup/INF115-CA3
 
@@ -85,6 +85,9 @@ Please do not set passwords in your script.
 **Make sure that your code runs locally on your computer before delivery.**
 
 Points will be subtracted if there are errors when running your submission.
+
+
+Comment parts of your code that need further explanation, and cite the sources of code you use. Also include names of students you worked togehter with.
 
 ### **Submit on Mitt UiB by 9th of May 23:59**
 
@@ -181,6 +184,9 @@ The table should consist of 3 rows. The station ID, the name of the station and 
 Write a script that queries the `bysykkel` database and returns a table showing user ID,
 username, and how many subscriptions they purchased in the years 2018, 2019, 2020 and 2021. 
 
+*Tip: you can use the SQL `YEAR`function to get the year of a timestamp*
+*Tip: ypu can use the CASE function to count occurences in groupings. `CASE VALUE WHEN X then 1 else 0 end)`*
+
 *Example:*
 
 | user_id | Name          | 2018 | 2019 | 2020 | 2021 |
@@ -189,7 +195,7 @@ username, and how many subscriptions they purchased in the years 2018, 2019, 202
 
 ## Task 4: HTML Database Interface (22%)
 
-Create a HTML selector where you can choose one of the 5 stations and the click Submit.
+Create a HTML selector where you can choose one of the 5 stations. Next to the selector you should have a Submit button that submits the selection.
 
 Then a PHP script should return a table where the first column is the station name, the second column the availability. 
 
